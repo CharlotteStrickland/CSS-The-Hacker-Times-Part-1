@@ -46,7 +46,6 @@ nav {
 }
 
 body {
-    font-family: 'Source Sans Pro';
     padding: 15px;
 }
 
@@ -63,8 +62,8 @@ p {
 }
 
 h1 {
-    font-family: Abril Fatface;
-    font-size: 2em;
+    font-family: abril fatface;
+    font-size: xx-large;
     text-align: center;
 }
 
@@ -119,6 +118,7 @@ h5 {
     color: #dd3232;
     font-size: 14px;
     padding-top: -5px;
+    margin-top: -18px;
 }
 h2 {
     font-family: Roboto Slab;
@@ -143,4 +143,8 @@ main {
 .more-articles p {
     margin-left: -4px;
     margin-right: -19px;
+}
+
+h4 {
+    font-family: Roboto Slab;
 }
