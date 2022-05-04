@@ -9,18 +9,23 @@ h1 {
     margin: auto;
     width: 50%;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 ul {
     padding-inline-start: 0px;
-    margin: 15px;
+    margin: 7px;
 }
 
 li {
     list-style-type: none;
-    margin: auto;
     display: inline-block;
-    padding: 1px;
+    padding: .5px;
+    padding-top: .5px;
+    margin: 4px;
 }
 
 nav a {
@@ -47,6 +52,14 @@ body {
 
 p {
     color: #777;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 9px;
+    margin-left: 2px;
+    margin-right: 11px;
+    font-family: Source Sans Pro;
+    pa
+}
 }
 
 h1 {
@@ -63,7 +76,9 @@ body {
 .date {
     font-family: Source Sans Pro;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: -30px;
+    padding-top: 25px;
+    margin-left: -66px;
 }
 
 main img {
@@ -71,18 +86,14 @@ main img {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+
 }
 
 section {
     display: inline-block;
-    width: 40%;
-    margin: 40px;
-}
-
-div {
-    width: 100%;
-    height: 80%;
-
+    width: 38%;
+    margin: 34px;
+    margin-top: -10px;
 }
 
 body {
@@ -93,10 +104,43 @@ body {
 }
 
 .newspaper-container {
-    box-sizing: content-box;
     box-shadow: 2px 2px 2px 3px #ddd;
-    border-radius: 20px;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
     border-color: 1px solid #777;
     background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
+h5 {
+    font-family: Roboto Slab;
+    color: #dd3232;
+    font-size: 14px;
+    padding-top: -5px;
+}
+h2 {
+    font-family: Roboto Slab;
+    color: black;
+    padding-bottom: -5px;
+}
+
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.more-articles {
+    width: 100%;
+    height: 80%;
+    border-top: solid thin rgba(128, 128, 128, 0.175);
+    padding-top:
+}
+
+.more-articles p {
+    margin-left: -4px;
+    margin-right: -19px;
 }
